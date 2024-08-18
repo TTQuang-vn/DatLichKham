@@ -1,0 +1,106 @@
+.footer-container{
+    width: 100%;
+    height: 200px;
+    background-color: #eee;
+    margin-top: 150px;
+    align-items: center;
+    .footer-content{
+        padding-top: 15px;
+        width: 90%;
+        margin-top: 50px;
+        margin: 0 auto 0 auto;
+        display: flex;
+        .first-content{
+            
+            .title-1{
+                font-size: 14pt;
+                margin-bottom: 20px;
+                text-transform: uppercase;
+            }
+            .title-2{
+                .home-title{
+                    display: flex;
+                    .box-title{
+                        padding-left: 5px;
+                    }
+                }
+                .phone-title{
+                    display: flex;
+                    .box-title{
+                        padding-left: 5px;
+                    }
+                }
+                .email-title{
+                    display: flex;
+                    .box-title{
+                        padding-left: 5px;
+                    }
+                }
+            }
+        }
+        .second-content{
+            
+            margin-left: 100px;
+
+            .title1-second-content{
+                font-size: 14pt;
+                margin-bottom: 20px;
+                text-transform: uppercase;
+            }
+        }
+        .third-content{
+           
+            margin-left: 150px;
+
+            .title-third-content{
+                font-size: 14pt;
+                margin-bottom: 5px;
+                text-transform: uppercase;
+            }
+            .bg-pay{
+                height: 115px;
+                width: 237px;
+                background: url(../../assets/iconfooter.png);
+            }
+        }
+        .fourth-content{
+            
+            margin-left: 150px;
+
+            .title-fourth-content{
+                font-size: 14pt;
+                margin-bottom: 5px;
+                text-transform: uppercase;
+            }  
+            .fab{
+                &.fa-facebook-square{
+                    font-size: 50px;
+                    color: blue;
+                    margin-right: 30px;
+                }
+                &.fa-youtube{
+                    font-size: 50px;
+                    color: red;
+                    
+                } 
+            } 
+        }
+    }
+    .footer-footer{
+        margin-top: 35px;
+        background-color:rgb(19, 17, 17);
+        display: flex;
+        width: 100%;
+        height: 30px;
+        .title-footer1{
+            padding-left: 75px;
+            padding-top: 5px;
+            color: rgb(157, 134, 134);
+        }
+        .title-footer2{
+            padding-left: 800px;
+            padding-top: 5px;
+            color: rgb(157, 134, 134);
+        }
+    }
+}

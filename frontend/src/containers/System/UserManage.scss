@@ -1,0 +1,105 @@
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .btn123123{
+    display: flex;
+    width: 50px;
+    height: 32px;
+    .delete{
+      margin-left: 10px;
+      background-color: rgb(236, 228, 228);
+      padding-top: 5px;
+      .btn-delete{
+        width: 30px;
+        border: none;
+        outline: none;
+        background: transparent;
+        color: #de0400;
+        &:hover{
+          background-color: transparent !important;
+          color: #de0400 !important;
+        }
+      }
+    }
+    .edit{
+      background-color: rgb(236, 228, 228);
+      padding-top: 5px;
+      .btn-edit{
+        width: 30px;
+        border: none;
+        outline: none;
+        background: transparent;
+        color: #ecc621;
+        &:hover{
+          background-color: transparent !important;
+          color: #ecc621 !important;
+        }
+      }
+    }
+    
+  }
+
+.modal-user-container {
+  .modal-user-body {
+    display: flex;
+    gap: 10px;
+    .input-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 5px;
+    }
+  }
+}
+.btn-user{
+  height: 40px;
+  width: 80px;
+}
+.input-container-body{
+  margin: 5px;
+}
+.users-tatble{
+  position: relative;
+    background: #ffffff;
+    border-radius: 0.375rem;
+    padding: 20px;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    .btn-btn{
+      padding-bottom: 20px;
+      .btn-btn-primary{
+      position: relative;
+      background-color: #04AA6D;
+      border: none;
+      color: #FFFFFF;
+      height: 40px;
+      border-radius: 4px;
+    
+    }
+    }
+    
+}

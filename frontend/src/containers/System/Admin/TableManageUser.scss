@@ -1,0 +1,60 @@
+#TableManageUser {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #TableManageUser td, #TableManageUser th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #TableManageUser tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #TableManageUser tr:hover {background-color: #ddd;}
+  
+  #TableManageUser th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .btn-action{
+    display: flex;
+    width: 50px;
+    height: 32px;
+    .delete{
+      margin-left: 10px;
+      background-color: rgb(236, 228, 228);
+      padding-top: 5px;
+      .btn-delete{
+        width: 30px;
+        border: none;
+        outline: none;
+        background: transparent;
+        color: #de0400;
+        &:hover{
+          background-color: transparent !important;
+          color: #de0400 !important;
+        }
+      }
+    }
+    .edit{
+      background-color: rgb(236, 228, 228);
+      padding-top: 5px;
+      .btn-edit{
+        width: 30px;
+        border: none;
+        outline: none;
+        background: transparent;
+        color: #ecc621;
+        &:hover{
+          background-color: transparent !important;
+          color: #ecc621 !important;
+        }
+      }
+    }
+    
+  }
